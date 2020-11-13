@@ -1,0 +1,8 @@
+Estudio de PageView
+https://medium.com/flutter-community/a-deep-dive-into-pageview-in-flutter-with-custom-transitions-581d9ea6dded
+
+Google Fonts
+https://pub.dev/packages/google_fonts
+
+
+Estudio de Expand Row Column,
