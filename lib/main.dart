@@ -137,11 +137,10 @@ class MiCaja extends StatelessWidget {
       margin: EdgeInsets.all(1),
       decoration: BoxDecoration(
         border: Border.all(
-            color: Colors.blue, //                   <--- border color
+            color: Colors.blue, // <--- border color
             width: 1.0),
         //color: Colors.blue,
-        borderRadius: BorderRadius.all(
-            Radius.circular(3.0) //                 <--- border radius here
+        borderRadius: BorderRadius.all(Radius.circular(3.0) //<--- border radius
             ),
       ),
       child: Center(child: MiText(txt)),
