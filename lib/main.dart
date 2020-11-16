@@ -49,7 +49,7 @@ class _MyHomePageState extends State<MyHomePage> {
     _filasController.addListener(() => _establecerFC());
     _columnasController.addListener(() => _establecerFC());
 
-    // var rng = new Random();
+    //var rng = new Random();
     // for (var f = 0; f < _itemCount; f++) {
     //   fflex[f] = rng.nextInt(3) + 1;
     //   cflex[f] = [];
@@ -111,6 +111,7 @@ class _MyHomePageState extends State<MyHomePage> {
                   for (var c = 0; c < columnas; c++)
                     Expanded(
                       //flex: cflex[f][c],
+                      //flex: Random().nextInt(3) + 1,<-- LOCURA
                       child: MiCaja(txt: '$f$c'),
                     )
                 ]),
