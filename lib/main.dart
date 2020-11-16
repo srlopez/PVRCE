@@ -160,9 +160,8 @@ class MiText extends StatelessWidget {
     return Text(
       txt,
       style: GoogleFonts.lato(
-        textStyle:
-            TextStyle(color: Colors.blue, letterSpacing: .5, fontSize: 30),
-      ),
+          textStyle:
+              TextStyle(color: Colors.blue, letterSpacing: .5, fontSize: 30)),
     );
   }
 }
